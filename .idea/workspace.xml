@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7dbc1687-f6a5-4cda-aa4d-2e299d1748d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/fewshot/models/kmeans_refine_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/fewshot/models/kmeans_refine_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_exp.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1071892565">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="9" />
+          <entry key="project.open.time.6" value="13" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="133" />
+          <entry key="json" value="9" />
+          <entry key="py" value="102" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="9" />
+          <entry key="PLAIN_TEXT" value="141" />
+          <entry key="Python" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="9" />
+          <entry key="py" value="12699" />
+          <entry key="txt" value="280" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="289" />
+          <entry key="Python" value="12699" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.create.new" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SOTA">
+      <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139" module="few-shot-NIPS" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/graph" module="few-shot-NIPS" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/graph/events.out.tfevents.1556844143.DESKTOP-42A3GGV" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/conf.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/checkpoint" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/flags.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-14999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-15999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-16999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-17999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-18999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-14999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-15999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-16999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-17999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-18999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-14999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-15999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-16999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-17999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-03-02-42-23-026237-139/model.ckpt-18999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406" module="few-shot-NIPS" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/graph" module="few-shot-NIPS" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/graph/events.out.tfevents.1557267338.DESKTOP-42A3GGV" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/conf.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/checkpoint" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/flags.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-15999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-16999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-17999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-18999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-19999.meta" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-15999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-16999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-17999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-18999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-19999.index" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-15999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-16999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-17999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-18999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-08-00-15-38-037978-406/model.ckpt-19999.data-00000-of-00001" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.46581197">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/run_exp.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="515">
+                  <caret line="91" column="83" selection-start-line="91" selection-start-column="83" selection-end-line="91" selection-end-column="83" />
+                  <folding>
+                    <element signature="n#!!doc" />
+                    <element signature="e#7565#8860#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fewshot/models/model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1562">
+                  <caret line="90" column="56" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model_VAT_ENT.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="55" selection-start-line="55" selection-end-line="55" />
+                  <folding>
+                    <element signature="e#0#108#0" expanded="true" />
+                    <element signature="e#744#1925#0" />
+                    <element signature="e#786#1925#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model_RW.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#108#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fewshot/models/SSL_utils.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="506">
+                  <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+                  <folding>
+                    <marker date="1558589886246" expanded="false" signature="4739:5011" ph="..." />
+                    <marker date="1558589886246" expanded="false" signature="5037:5254" ph="..." />
+                    <marker date="1558589886246" expanded="false" signature="5560:5561" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stats.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                  <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fewshot/models/kmeans_refine_model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="685">
+                  <caret line="100" selection-start-line="100" selection-end-line="100" />
+                  <folding>
+                    <element signature="e#1603#1626#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fewshot/configs/mini_imagenet_config.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="751">
+                  <caret line="159" column="8" selection-start-line="159" selection-end-line="166" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#1491#2419#0" expanded="true" />
+                    <element signature="e#4192#4393#0" expanded="true" />
+                    <element signature="e#5456#5590#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/fewshot/configs/omniglot_config.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="817">
+                  <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+                  <folding>
+                    <element signature="e#1498#2480#0" expanded="true" />
+                    <element signature="e#7335#7464#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>npoints</find>
+      <find>print</find>
+      <find>step</find>
+      <find>class_dict</find>
+      <find>category_la</find>
+      <find>category_labels</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sample_size</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="persistent_SSL" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fewshot/models/basic_model.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/BasicLP.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/basic_model_ENT_graphVAT.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/model_VAT.py" />
+        <option value="$PROJECT_DIR$/fewshot/data/refinement_dataset.py" />
+        <option value="$PROJECT_DIR$/fewshot/data/mini_imagenet.py" />
+        <option value="$PROJECT_DIR$/fewshot/data/episode.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/model.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/persistent_model.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/kmeans_utils.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/VAT_utils.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/basic_model_VAT_ENT.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/basic_model_RW.py" />
+        <option value="$PROJECT_DIR$/fewshot/configs/omniglot_config.py" />
+        <option value="$PROJECT_DIR$/fewshot/configs/mini_imagenet_config.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/SSL_utils.py" />
+        <option value="$PROJECT_DIR$/stats.py" />
+        <option value="$PROJECT_DIR$/fewshot/models/kmeans_refine_model.py" />
+        <option value="$PROJECT_DIR$/run_exp.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1969" />
+    <option name="height" value="1407" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="few-shot-NIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="few-shot-NIPS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="few-shot-NIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="few-shot-NIPS" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="few-shot-NIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="few-shot-NIPS" type="462c0819:PsiDirectoryNode" />
+              <item name="fewshot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="few-shot-NIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="few-shot-NIPS" type="462c0819:PsiDirectoryNode" />
+              <item name="fewshot" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="few-shot-NIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="few-shot-NIPS" type="462c0819:PsiDirectoryNode" />
+              <item name="fewshot" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="few-shot-NIPS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="few-shot-NIPS" type="462c0819:PsiDirectoryNode" />
+              <item name="fewshot" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ayad\Desktop\Academic\SSL\few-shot-NIPS\fewshot\models" />
+      <recent name="C:\Users\Ayad\Desktop\Academic\SSL\few-shot-NIPS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_exp">
+    <configuration name="VAT_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="few-shot-NIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fewshot/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ayad\Desktop\Academic\SSL\few-shot-NIPS\fewshot\models\SSL_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mini_imagenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="few-shot-NIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fewshot/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fewshot/data/mini_imagenet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="few-shot-NIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_exp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="few-shot-NIPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.VAT_utils" />
+      <item itemvalue="Python.mini_imagenet" />
+      <item itemvalue="Python.stats" />
+      <item itemvalue="Python.run_exp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_exp" />
+        <item itemvalue="Python.stats" />
+        <item itemvalue="Python.mini_imagenet" />
+        <item itemvalue="Python.VAT_utils" />
+        <item itemvalue="Python.run_exp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dbc1687-f6a5-4cda-aa4d-2e299d1748d2" name="Default Changelist" comment="" />
+      <created>1556159688466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556159688466</updated>
+    </task>
+    <task id="LOCAL-00001" summary="created basic-ent&#10;created RW-matching">
+      <created>1556245389235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556245389235</updated>
+    </task>
+    <task id="LOCAL-00002" summary="miniimagenet conf">
+      <created>1556246229000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556246229000</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added stats&#10;modified ENT and matching walk">
+      <created>1556841890905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556841890905</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added stats&#10;modified ENT and matching walk">
+      <created>1556888487510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556888487510</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update matching tournament">
+      <created>1557369131364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557369131365</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added vanilla and matching ent separately">
+      <created>1557714368967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557714368967</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added graphVAT">
+      <created>1557758441696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557758441696</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added persistent SSL model">
+      <created>1558323078244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558323078244</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified kmeans with weighing of points">
+      <created>1558410026965</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558410026965</updated>
+    </task>
+    <task id="LOCAL-00010" summary="backup">
+      <created>1558581720066</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558581720066</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactored code">
+      <created>1558590631834</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558590631834</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17021276" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18473282" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32977098" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20534351" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created basic-ent&#10;created RW-matching" />
+    <MESSAGE value="miniimagenet conf" />
+    <MESSAGE value="added stats&#10;modified ENT and matching walk" />
+    <MESSAGE value="update matching tournament" />
+    <MESSAGE value="added vanilla and matching ent separately" />
+    <MESSAGE value="added graphVAT" />
+    <MESSAGE value="added persistent SSL model" />
+    <MESSAGE value="modified kmeans with weighing of points" />
+    <MESSAGE value="backup" />
+    <MESSAGE value="refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored code" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fewshot/models/prototypical.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-VAT-ENT_2019-04-26-01-14-39-659170-439/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-03-01-40-693744-256/train_acc.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-04-23-30-584737-056/train_acc.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-03-01-40-693744-256/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-04-23-30-584737-056/valid_acc.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-02-12-15-012930-845/train_acc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-matching-ENT_2019-05-13-03-47-45-285019-156/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-matching-ENT_2019-05-13-03-14-21-479866-004/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT-KL_2019-05-13-00-47-44-418684-362/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-04-26-00-26-06-354234-664/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-02-12-15-012930-845/cmd.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-13-02-12-15-012930-845/flags.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/omniglot_basic-ENT_2019-05-13-02-12-15-012930-845/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="296" selection-start-column="292" selection-end-column="296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/refine_model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-14-13-52-59-546325-707/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/omniglot_basic-ENT_2019-05-13-02-12-15-012930-845/valid_acc.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model_ENT_graphVAT.py" />
+    <entry file="file://$PROJECT_DIR$/fewshot/data/mini_imagenet_split/Ravi/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/omniglot/train_vinyals_aug90_labelsplit_10_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/omniglot/val_vinyals_aug90_labelsplit.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/tiered_imagenet_split/words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/tiered_imagenet_split/val.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/compress_tiered_imagenet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_multi_exp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/configs/tiered_imagenet_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/tiered_imagenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="270" column="17" selection-start-line="270" selection-start-column="17" selection-end-line="270" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/nnlib.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model_VAT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="27" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/model_VAT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="92" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/batch_iter.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/concurrent_batch_iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="121" column="54" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/refinement_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="275" column="46" selection-start-line="275" selection-start-column="46" selection-end-line="275" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/configs/config_factory.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/data_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="54" column="82" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/kmeans_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/episode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/persistent_model.py" />
+    <entry file="file://$PROJECT_DIR$/fewshot/models/distractor_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/omniglot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/data/mini_imagenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2165">
+          <caret line="226" column="33" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="90" column="56" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model_VAT_ENT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+            <element signature="e#744#1925#0" />
+            <element signature="e#786#1925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/basic_model_RW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/SSL_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+          <folding>
+            <marker date="1558589886246" expanded="false" signature="4739:5011" ph="..." />
+            <marker date="1558589886246" expanded="false" signature="5037:5254" ph="..." />
+            <marker date="1558589886246" expanded="false" signature="5560:5561" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/models/kmeans_refine_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#1603#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/configs/mini_imagenet_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="159" column="8" selection-start-line="159" selection-end-line="166" selection-end-column="30" />
+          <folding>
+            <element signature="e#1491#2419#0" expanded="true" />
+            <element signature="e#4192#4393#0" expanded="true" />
+            <element signature="e#5456#5590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fewshot/configs/omniglot_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+          <folding>
+            <element signature="e#1498#2480#0" expanded="true" />
+            <element signature="e#7335#7464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_exp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="91" column="83" selection-start-line="91" selection-start-column="83" selection-end-line="91" selection-end-column="83" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#7565#8860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
