@@ -1,13 +1,16 @@
 # Prototypical Random Walk Networks(PRWN)
 Code for paper
-*Semi-Supervised Few-Shot Learning with Prototypical Random Walks* [[arxiv](LINK)]
+*Semi-Supervised Few-Shot Learning with Prototypical Random Walks* [[arxiv](https://arxiv.org/abs/1903.02164)]
 
-This code is based on [https://github.com/renmengye/few-shot-ssl-public].
 
-Based on the paper:
-* Mengye Ren, Eleni Triantafillou, Sachin Ravi, Jake Snell, Kevin Swersky, Joshua B. Tenenbaum, Hugo Larochelle and Richard S. Zemel.
-Meta-Learning for Semi-Supervised Few-Shot Classification. 
-In *Proceedings of 6th International Conference on Learning Representations (ICLR)*, 2018.
+
+If you find our work useful in your research, please consider citing:
+@article{Ahmed2020prw,
+    title={Semi-Supervised Few-Shot Learning with Prototypical Random Walks},
+    author={Ayyad, Ahmed and Li, Yuchen and Muaz, Raden and Albarqouni, Shadi and Elhoseiny, Mohamed},
+    journal={35th AAAI Conference on Artificial Intelligence (AAAI)},
+    year={2021}
+}
 
 
 ## Dependencies
@@ -144,6 +147,8 @@ python run_exp.py --data_root $DATA_ROOT             \
 
 To test PRWN+semi-supervised inference with the distractor filtering:
 ```
+
+
 python run_exp.py --data_root $DATA_ROOT             \
                   --dataset mini-imagenet            \
                   --model kmeans-filter              \
@@ -155,3 +160,9 @@ python run_exp.py --data_root $DATA_ROOT             \
                   [--use_test]
 ```			  
 
+
+This code is based on [https://github.com/renmengye/few-shot-ssl-public].
+Based on the paper:
+* Mengye Ren, Eleni Triantafillou, Sachin Ravi, Jake Snell, Kevin Swersky, Joshua B. Tenenbaum, Hugo Larochelle and Richard S. Zemel.
+Meta-Learning for Semi-Supervised Few-Shot Classification. 
+In *Proceedings of 6th International Conference on Learning Representations (ICLR)*, 2018.
