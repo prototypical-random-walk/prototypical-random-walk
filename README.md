@@ -5,13 +5,14 @@ Code for paper
 
 
 If you find our work useful in your research, please consider citing:
+```
 @article{Ahmed2020prw,
     title={Semi-Supervised Few-Shot Learning with Prototypical Random Walks},
     author={Ayyad, Ahmed and Li, Yuchen and Muaz, Raden and Albarqouni, Shadi and Elhoseiny, Mohamed},
     journal={35th AAAI Conference on Artificial Intelligence (AAAI)},
     year={2021}
 }
-
+```
 
 ## Dependencies
 * cv2
